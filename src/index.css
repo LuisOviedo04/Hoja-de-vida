@@ -1,82 +1,644 @@
-.cuerpo {
-  background: #231400;
+.caja_principal {
+  width: 612px;
+  height: 792px;
   position: relative;
-  width: 720px;
-  height: 720px;
-  left: 323px;
-  right: 323px;    
+  left: 377px;
+  right: 377px;
 }
-.imag_principal {
-  width: 720px;
-  height: 360px;
-}
-.c_text1 {    
+
+.caja {
   position: absolute; 
-  height: 30px;
-  width: 100%;
-  top: 10px;
-}
-.text1 {
-  font-family: 'Rubik', sans-serif;
-  color: #856c3f;
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 1px 1px 0px black;
-}
-.cuadro {
-  position: absolute;
-  width: 720px;
-  top: 360px;
-  height: 360px;
-}
-.miguel {    
-  position: absolute;
-  height: 260px;
-  width: 30%;
-}
-.c_texto2 {
-  position: absolute;
-  height: 260px;
-  width: 100%; 
-}
-.text2 {
-  font-family: 'Rubik', sans-serif;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 1px 1px 0px black;
-}
-.c_texto2_1 {
-  position: absolute;
-  height: 100px;
-  width: 100%;
-  top: 110px;
-}
-.c_texto2_2 {
-  position: absolute;
-  height: 50px;
-  width: 100%;
+  width: 612px;
+  height: 100%;
   top: 200px;
 }
-.text3 {
-  font-family: 'Rubik', sans-serif;
+
+.parte_superior {
+  position: absolute; 
+  height: 200px;
+  width: 612px;
+  box-shadow: 10px 10px 15px #999;
+
+}
+
+.informacion1 {
+  position: absolute; 
+  height: 120px;
+  width: 260px;
+  left: 52px;
+  right: 172px;
+  top: 40px;
+}
+.nombre {    
+  position: absolute;
+  width: 100%;
+  height: 40px;    
+  top: 10px;
+}
+
+.t_nombre {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
   color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.linea {
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 2px;
+  top: 55px
+}
+.titulo {
+  position: absolute;
+  width: 100%;
+  height: 40px;    
+  top: 62px;
+}
+
+.titulo_1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
+
+.perfil {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  left: 10px;
+}
+
+.t_perfil {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.perfil2 {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  left: 20px;
+  top: 50px;
+}
+
+.t_perfil2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.perfil3 {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  left: 20px;
+  top: 100px;
+}
+
+.t_perfil3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.perfil4 {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  left: 20px;
+  top: 150px;
+}
+
+.t_perfil4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+
+
+.parte_izquierda {
+  background: #1E2D3A;
+  position: absolute; 
+  height: 100%;
+  width: 35%;
+}
+
+.habilidades {
+  position: absolute; 
+  height: 164px;
+  width: 163px;
+  top: 40px;
+  left: 24px;
+}
+
+.acerda_de {
+  position: absolute; 
+  height: 210px;
+  width: 100%;
+  top:270px;
+}
+
+.acerca {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.barra {
+  position: absolute; 
+  height: 3px;
+  width: 65%;
+  top:35px;
+  background: white;
+  left: 38px;
+}
+
+.intro {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 13px;
+  margin-left: 7px;
+  font-size: 13px;
+}
+
+
+.datos {
+  position: absolute; 
+  height: 150px;
+  width: 100%;
+  top:470px;
+}
+
+.datos1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.barra2 {
+  position: absolute; 
+  height: 3px;
+  width: 70%;
+  top:33px;
+  background: white;
+  left: 34px;
+}
+
+.datos2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 13px;
+  margin-left: 7px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.datos3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 8px;
+  margin-left: 7px;
+  font-size: 13px;
+}
+
+.datos4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 13px;
+  margin-left: 7px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.datos5 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 8px;
+  margin-left: 7px;
+  font-size: 13px;
+}
+
+.contac {
+  position: absolute; 
+  height: 150px;
+  width: 100%;
+  top:630px;
+}
+
+.contacto {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.barra3 {
+  position: absolute; 
+  height: 3px;
+  width: 40%;
+  top:35px;
+  background: white;
+  left: 65px;
+}
+
+.whatsapp {
+  position: absolute; 
+  height: 40px;
+  width: 100%;
+  top:50px;
+  
+}
+
+.gmail {
+  position: absolute; 
+  height: 40px;
+  width: 100%;
+  top:100px;
+}
+
+.w_icon {
+  position: absolute; 
+  height: 40px;
+  width: 40px;
+  left: 10px;
+  transition: 0.7s;
+}
+
+.t_w {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 13px;
+  margin-left: 60px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.g_icon {
+  position: absolute; 
+  height: 40px;
+  width: 40px;
+  left: 10px;
+  transition: 0.7s;
+}
+
+.t_g {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 13px;
+  margin-left: 60px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.parte_derecha {
+  background: #FBFBFB;
+  position: absolute; 
+  height: 100%;
+  width: 65%;
+  left: 35%;
+  box-shadow: 10px 10px 15px #999;
+}
+
+.experiencia {
+  position: absolute; 
+  height: 70px;
+  width: 100%;
+  top: 15px;
+}
+
+.imagen {
+  position: absolute; 
+  height: 70px;
+  width: 70px;
+  top: 5px;
+  left: 5px;
+  transition: 0.7s;
+}
+
+.titulo2 {
+  position: absolute; 
+  height: 70px;
+  width: 300px;
+  left: 80px;
+}
+.t_titulo2 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cuadro1 {
+  position: absolute; 
+  height: 140px;
+  width: 100%;
+  top: 100px;
+  background: #E3E3E3;
+}
+
+.cuadro2 {
+  position: absolute; 
+  height: 140px;
+  width: 100%;
+  top: 270px;
+  background: #E3E3E3;
+}
+.empresa1 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.labor1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(144, 143, 143);
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.empresa2 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.labor2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(144, 143, 143);
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.cuadro3 {
+  position: absolute; 
+  height: 70px;
+  width: 100%;
+  top: 430px;
+}
+.t_titulo3 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.imagen2 {
+  position: absolute; 
+  height: 70px;
+  width: 70px;
+  transition: 0.7s;
+}
+
+.cuadro4 {
+  position: absolute; 
+  height: 100px;
+  width: 100%;
+  top: 500px;
+}
+.cuadro4_1 {
+  position: absolute; 
+  height: 100px;
+  width: 50%;
+}
+
+.info1 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  margin-top: 5px;
+  margin-left: 5px;
   font-size: 15px;
   font-weight: bold;
-  text-align: center;
-  text-shadow: 1px 1px 0px black;
 }
-.fuego {
-  position: absolute;
-  height: 80px;
+
+.info2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(144, 143, 143);
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.cuadro4_2 {
+  position: absolute; 
+  height: 100px;
+  width: 50%;
+  left: 50%;
+}
+.info3 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.info4 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(144, 143, 143);
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.cuadro5 {
+  position: absolute; 
+  height: 70px;
   width: 100%;
-  top: 280px;
+  top: 610px;
 }
-.cuadro_2 {
+
+.imagen3 {
+  position: absolute; 
+  height: 60px;
+  width: 60px;
+  top: 5px;
+  left: 5px;
+  transition: 0.7s;
+}
+
+.t_titulo4 {
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.cuadro6 {
+  position: absolute; 
+  height: 40px;
+  width: 100%;
+  top: 690px;
+}
+
+.imagen4 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left:3px;
+  text-align: center;
+}
+
+.imagen5 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left: 50px;
+}
+
+.imagen6 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left: 100px;
+}
+.imagen7 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left: 150px;
+}
+
+.imagen8 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left: 200px;
+}
+
+.imagen9 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left: 253px;
+}
+
+.imagen10 {
+  position: absolute; 
+  height: 60px;
+  width: 40px;
+  left: 327px;
+}
+
+.cuadro7 {
+  position: absolute; 
+  height: 5px;
+  width: 100%;
+  top: 735px;
+  background: #1E2D3A;
+}
+.w_icon:hover{
+  transform: scale(1.5);
+}
+.g_icon:hover{
+  transform: scale(1.5);
+}
+.imagen:hover{
+  transform: scale(1.2);
+}
+.imagen2:hover{
+  transform: scale(1.2);
+}
+.imagen3:hover{
+  transform: scale(1.2);
+}
+.porcen1 {
+  width: 40px;
+  height: 40px;
   position: absolute;
-  height: 360px;
-  width: 70%;
-  left: 216px;
+  transition: 0.7s;
+}
+.porcen1:hover{
+  transform: translateY(15px);
+}
+.porcen2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: 0.7s;
+}
+.porcen2:hover{
+  transform: translateY(15px);
+}
+.porcen3 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: 0.7s;
+}
+.porcen3:hover{
+  transform: translateY(15px);
+}
+.porcen4 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: 0.7s;
+}
+.porcen4:hover{
+  transform: translateY(15px);
+}
+.porcen5 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: 0.7s;
+}
+.porcen5:hover{
+  transform: translateY(15px);
+}
+.porcen6 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: 0.7s;
+}
+.porcen6:hover{
+  transform: translateY(15px);
+}
+.porcen7 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: 0.7s;
+}
+.porcen7:hover{
+  transform: translateY(15px);
+}
+.hd{
+  font-family: 'Roboto', sans-serif;
+  color: #0087A7;
+  font-weight: bold;
 }
